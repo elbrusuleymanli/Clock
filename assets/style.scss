@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+
+.row {
+    background: linear-gradient(to right, #009fff, #ec2f4b);
+
+
+.title{
+    color: white;
+    font-weight: 700;
+
+}
+
+.title:hover {
+
+    color: #330092;
+    
+}
+
+}
+.row:hover {
+
+    background: linear-gradient(to right, #ff4b1f, #1fddff);
+}
+
+.clock .row {
+
+    background: linear-gradient(to right, #302f2f, #434343);
+
+    
+    p{
+        border: 2px solid white;
+        color: white;
+        width: 2000px;
+        height: 380px;
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+        font-size: 150px;
+        
+        @media screen and (max-width: 992px) {
+            
+                width: 100%;
+                font-size: 115px;
+                padding-top: 94px;
+                justify-content: center;
+          
+    }
+         @media screen and (max-width: 768px) {
+       
+        width: 100%;
+        font-size: 115px;
+        padding-top: 94px;
+        justify-content: center;
+       
+       
+       }
+         @media screen and (max-width: 576px) {
+    
+        width: 100%;
+        font-size: 77px;
+        padding-top: 123px;
+        justify-content: center;
+        height: 300px;
+   
+   
+    }
+    
+    @media screen and (max-width: 420px) {
+    
+        width: 100%;
+        font-size: 50px;
+        padding-top: 123px;
+        justify-content: center;
+        height: 300px;
+   
+   
+    }
+    @media screen and (max-width: 400px) {
+    
+        width: 100%;
+        font-size: 50px;
+        padding-top: 123px;
+        justify-content: center;
+        height: 300px;
+   
+   
+    }
+    @media screen and (max-width: 360px) {
+    
+        width: 100%;
+        font-size: 37px;
+        padding-top: 60px;
+        justify-content: center;
+        height: 178px;
+   
+   
+    }
+    @media screen and (max-width: 300px) {
+    
+        width: 100%;
+        font-size: 31px;
+        padding-top: 60px;
+        justify-content: center;
+        height: 178px;
+   
+   
+    }
+
+
+
+}
+    p:hover {
+        color: black;
+        border: 2px solid black;
+
+    }
+}
+.clock .row:hover{
+
+    background: linear-gradient(to right, #abbaab, #ffffff);
+}
+
+.btn{
+
+  
+    background: linear-gradient(to right, #606c88, #3f4c6b);
+    height: 50px;
+    width: 120px;
+    transition: 0.4s;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+.btn:hover{
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+   @media screen and (max-width: 576px) {
+    
+   
+   
+   
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+
+
+
